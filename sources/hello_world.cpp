@@ -1,10 +1,14 @@
 #include <iostream>
-> 
-> int main()
-> {
->   string name;
->   std::cout<<"Enter your name";  //Ввод пользователем имени
->   std::cin>> name; //Запись имени пользователя
->   std::cout << "Hello world from" << name << '!'; //Печать приветствия
->   return 0;
-> }
+
+>> using namespace std;
+>> int
+   main() >
+{
+  > string name; //инциализация поля
+  > std::cout << "Enter your name"; //Ввод имени пользователем
+  > std::cin >> name; //Запись программой имени
+  > std::cout << "Hello world from" << name << '!'; //Привет
+  > return 0;
+  >
+}
+
